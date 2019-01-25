@@ -1,0 +1,265 @@
+html{
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: Montserrat;
+}
+
+h1.first-h1{
+    font-size: 40px;
+    font-family: Montserrat;
+    direction: ltr;
+    margin-top: 210px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+i{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.all-text{
+    font-size: 50px;
+}
+.menu{
+    font-weight: bold;
+}
+p.all{
+    font-size: 15px;
+}
+.images{
+    padding-bottom: 30px;
+}
+.circles{
+    padding-bottom: 60px;
+}
+.navbar{
+    background-color: white;
+    padding: 1px 5px;
+    overflow: hidden;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%
+}
+.button-section{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+p.seccion-text{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 12px;
+}
+p.seccion-text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Montserrat;
+    color: #40475b;
+}
+
+.box-middle{
+    background: #292e3d;
+}
+.maintext{
+    margin:0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-template-rows: auto;
+}
+
+.Features{
+    background:white;
+    color: white;
+}
+
+.Features h1{
+    font-size: 25px;
+}
+.far{
+    font-size: 45px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+.box-image{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.title-image{
+    margin: 0px;
+}
+
+.section:nth-child(even){
+    background-color: #38475b;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.section:nth-child(odd){
+    background-color: white;
+    color: #38475b;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 45px;
+}
+.box{
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    direction: ltr;
+}
+.firty-h1{
+    
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    direction: ltr;
+    text-align: justify;
+}
+.box-around{
+    padding-top: 95px;
+    padding-bottom: 95px;
+    font-family: Monserrat;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar{
+        display: block;
+        width: 100%;
+    }
+    .navbar a{
+        font-size: 10px;
+    }
+}
+h1.blog{
+    font-size: 40px;
+}
+.textfield{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.row-text{
+    padding-bottom: 30px;
+    padding-right: 50px;
+}
+.phone{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+.container-row{
+display: flex;
+
+}
+.text-h1{
+    text-justify: initial;
+}
+.section-phone{
+    background: #38475b url(./iphone.png) no-repeat;
+    background-position: 75% 100%;
+    height: 100vh;
+}
+.section-one{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.Around{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+@media only screen and (min-width: 800px){
+
+}
+textarea{
+    padding-left: 100px;
+    
+}
+button{
+    background: #54d132;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:white;
+    border-color: green;
+}
+.chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .chart figcaption {
+    padding: 50px 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    line-height: 50px;
+  }
+  
+  .chart svg {
+    position: absolute;
+    top: 0px;
+    left: -15px;
+  }
+  
+  .outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 10;
+    stroke-dasharray: 534;
+  }
+  
+  .outer2 {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 10;
+    stroke-dasharray: 283;
+  }
+  
+  .chart[data-percent='75'] .outer {
+    stroke-dashoffset: 133;
+    animation: show75 3s infinite;
+  }
+  
+  .chart[data-percent='50'] .outer2 {
+    stroke-dashoffset: 0;
+    animation: show50 3s ;
+  }
+  
+  
+  @keyframes show75 {
+    from {
+      stroke-dashoffset: 537;
+    }
+    
+    to {
+      stroke-dashoffset: 133;
+    }
+  }
+  
+  @keyframes show50 {
+    from {
+      stroke-dashoffset: 283;
+    }
+    
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
